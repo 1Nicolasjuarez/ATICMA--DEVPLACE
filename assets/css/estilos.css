@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.container-mod{
+
+    background-color: rgb(248, 245, 245);
+    width: 100vw;
+    height: 100%;
+    display: block;
+    padding-bottom: 50px;
+
+}
+
+
+
+/* CARROPUSEL */
+
+.container-carrousel{
+
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+/* FOOOTER*/
+
+.container-footer{
+
+    text-align: center;
+    
+}
+
+
+
+
+
+
