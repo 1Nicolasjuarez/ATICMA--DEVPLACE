@@ -1,9 +1,6 @@
-
-
-
 /*FORMULARIO*/
 
-.container-form{
+.container-formulario {
     margin-top: 50px;
     border-radius: 10px;
     padding-top: 50px;
@@ -14,70 +11,60 @@
     margin-right: 20px;
 }
 
-.formulario{
+.container-formulario h2 {
+    text-align: center;
+    font-weight: bold;
+}
 
+.formulario {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
-
-.formulario_label{
-
+.formulario_label {
     display: block;
     font-weight: 700;
     padding: 10px;
     cursor: pointer;
-    text-transform: uppercase;
-
+    text-transform: capitalize;
 }
 
 
 /*FORMULARIO INPUTS*/
 
-
-.formulario__grupo-input{
-
+.formulario__grupo-input {
     position: relative;
-
 }
 
-.formulario__input{
-
+.formulario__input {
     width: 100%;
     background-color: white;
     border: 1px solid grey;
     border-radius: 3px;
     height: 40px;
     line-height: 45px;
-    padding: 0 , 40px ,0 , 10px;
+    padding: 0, 40px, 0, 10px;
     transition: .3s ease all;
 }
 
-.formulario__input:focus{
-
+.formulario__input:focus {
     border: 3px solid rgb(169, 166, 172);
     outline: none;
     box-shadow: 3px 0 30px rgba(rgb(223, 222, 236), green, blue, alpha);
 }
 
-.formulario__input-error{
-
+.formulario__input-error {
     font-size: 12px;
     margin-bottom: 0;
     display: none;
 }
 
-
-.formulario__input-error-activo{
-
-   display: block;
+.formulario__input-error-activo {
+    display: block;
 }
 
-
-.formulario__validacion-estado{
-
+.formulario__validacion-estado {
     position: absolute;
     right: 20px;
     bottom: 15px;
@@ -89,171 +76,129 @@
 
 /* ESTILOS DE VALIDACION DE FORMULARIO*/
 
-.formulario__grupo-correcto .formulario__validacion-estado{
-
-    color:rgb(16, 224, 16);
+.formulario__grupo-correcto .formulario__validacion-estado {
+    color: rgb(16, 224, 16);
     opacity: 1;
 }
 
-.formulario__grupo-incorrecto .formulario__label{
-
-    color:rgb(236, 30, 30);
-    
+.formulario__grupo-incorrecto .formulario__label {
+    color: rgb(236, 30, 30);
 }
 
-.formulario__grupo-incorrecto .formulario__validacion-estado{
-
-    color:rgb(236, 30, 30);
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+    color: rgb(236, 30, 30);
     opacity: 1;
-    
 }
 
-.formulario__grupo-incorrecto .formulario__input{
-
+.formulario__grupo-incorrecto .formulario__input {
     border: 3px solid red;
-    
 }
 
-.formulario__mensaje{
-
+.formulario__mensaje {
     height: 45px;
     line-height: 45px;
-    background-color: red; 
+    background-color: red;
     border-radius: 3px;
     display: none;
 }
 
-.formulario__mensaje p{ 
-
+.formulario__mensaje p {
     margin: 0;
-
 }
 
-
-.formulario__grupo-btn-enviar{
-
-display: flex;
-flex-direction: column;
-align-items: center;
-
-margin-top: 40px;
-
+.formulario__grupo-btn-enviar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
 }
 
-
-.formulario__mensaje-exito{
-
+.formulario__mensaje-exito {
     font-size: 14px;
-	color: #119200;
-	display: none;
+    color: #119200;
+    display: none;
 }
 
 .formulario__mensaje-exito-activo {
-	display: block;
-}   
+    display: block;
+}
 
 .formulario__mensaje-activo {
-	display: block;
+    display: block;
 }
 
 
 /*FORMULARIO TEXTAREA*/
 
-.formulario__grupo-textarea{
-
+.formulario__grupo-textarea {
     position: relative;
-
 }
 
-.formulario__textarea{
-
+.formulario__textarea {
     width: 100%;
     background-color: white;
     border: 1px solid grey;
     border-radius: 3px;
     height: 40px;
     line-height: 45px;
-    padding: 0 , 40px ,0 , 10px;
+    padding: 0, 40px, 0, 10px;
     transition: .3s ease all;
 }
 
-.formulario__textarea:focus{
-
+.formulario__textarea:focus {
     border: 3px solid rgb(169, 166, 172);
     outline: none;
     box-shadow: 3px 0 30px rgba(rgb(223, 222, 236), green, blue, alpha);
 }
 
-
-.formulario__textarea-error{
-
+.formulario__textarea-error {
     font-size: 12px;
     margin-bottom: 0;
     display: none;
 }
 
-.formulario__textarea-error-activo{
-
+.formulario__textarea-error-activo {
     display: block;
- }
+}
 
- .formulario__grupo-incorrecto .formulario__textarea{
-
+.formulario__grupo-incorrecto .formulario__textarea {
     border: 3px solid red;
-    
 }
 
 
 /*FORMULARIO SELECTS*/
 
-
-.formulario__grupo-select{
-
+.formulario__grupo-select {
     position: relative;
-
 }
 
-.formulario__select{
-
+.formulario__select {
     width: 100%;
     background-color: white;
     border: 1px solid grey;
     border-radius: 3px;
     height: 40px;
     line-height: 45px;
-    padding: 0 , 40px ,0 , 10px;
+    padding: 0, 40px, 0, 10px;
     transition: .3s ease all;
 }
 
-.formulario__select:focus{
-
+.formulario__select:focus {
     border: 3px solid rgb(169, 166, 172);
     outline: none;
     box-shadow: 3px 0 30px rgba(rgb(223, 222, 236), green, blue, alpha);
 }
 
-
-.formulario__select-error{
-
+.formulario__select-error {
     font-size: 12px;
     margin-bottom: 0;
     display: none;
 }
 
-.formulario__select-error-activo{
-
+.formulario__select-error-activo {
     display: block;
- }
-
- .formulario__grupo-incorrecto .formulario__select{
-
-    border: 3px solid red;
-    
 }
 
-
-
-
-
-
-
+.formulario__grupo-incorrecto .formulario__select {
+    border: 3px solid red;
+}
